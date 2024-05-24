@@ -32,6 +32,7 @@ body {
   background-size: cover;
   background-position: center;
   font-family: 'Montserrat', sans-serif;
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 .not-found p,
@@ -39,11 +40,18 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   color: #ddd8d8;
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 @media(min-width: 768px) {
   .not-found h1,
   .error h1 {
     font-size: 5rem;
+    padding: 0rem;
+  } 
+
+  .not-found p,
+  .error p {
+    padding: 0rem;
   }
 }
