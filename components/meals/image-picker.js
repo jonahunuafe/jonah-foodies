@@ -30,6 +30,15 @@ export default function ImagePicker({ label, name }) {
         fileReader.readAsDataURL(file);
     }
 
+    /*
+        optionall this code can be used to preview larger files
+        const objectURL = URL.createObjectURL(file);
+        setPickedImage(objectURL) 
+
+        Optionally, you can revoke the object URL when you no longer need it
+        URL.revokeObjectURL(objectURL);
+    */
+
     return (
         <div className={classes.picker}>
             <label htmlFor={name}>{label}</label>
