@@ -4,7 +4,6 @@
     width: 90%;
     max-width: 75rem;
     color: #ddd6cb;
-    font-size: 1.5rem;
 }
   
 .header h1 {
@@ -23,6 +22,7 @@
     max-width: 75rem;
     margin: 3rem auto;
     color: white;
+    overflow-x: hidden;
 }
   
 .form {
@@ -95,4 +95,10 @@
     background: #ccc;
     color: #979797;
     cursor: not-allowed;
+}
+
+@media(min-width: 768px) {
+    .header {
+        font-size: 1.5rem;
+    }
 }
