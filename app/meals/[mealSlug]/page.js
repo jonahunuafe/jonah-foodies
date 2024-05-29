@@ -13,7 +13,7 @@ export async function generateMetaData({ params }) {
 
     return {
         title: meal.title,
-        description: meal.summary
+        description: meal.summary,
     };
 }
 
